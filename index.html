@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عرض الملخصات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h1>مكتبة الملخصات</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link">الرئيسية</a>
+                    <a href="#" class="nav-link">الملخصات</a>
+                    <a href="#" class="nav-link">اتصل بنا</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    مجموعة شاملة من 
+                    <span class="gradient-text">الملخصات التعليمية</span>
+                </h2>
+                <p class="hero-description">
+                    اكتشف وتصفح أفضل الملخصات المنظمة بعناية لجميع المواد الدراسية
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-input-container">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="البحث في الملخصات..." class="search-input">
+                </div>
+                <div class="filter-container">
+                    <svg class="filter-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46"></polygon>
+                    </svg>
+                    <select id="unitFilter" class="filter-select">
+                        <option value="all">جميع الوحدات</option>
+                        <option value="1">الوحدة الأولى </option>
+                        <option value="2">الوحدة الثانية </option>
+                        <option value="3">الوحدة الثالثة </option>
+                        <option value="4">الوحدة الرابعة </option>
+                        <option value="5">الوحدة الخامسة </option>
+                        <option value="6">الوحدة السادسة </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Units Grid -->
+    <section class="units-section">
+        <div class="container">
+            <div class="units-grid" id="unitsGrid">
+                <!-- الوحدة الأولى -  -->
+                <div class="unit-card">
+                    <div class="unit-header unit-math">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة الأولى</h3>
+                                
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="https://i.ibb.co/TM379t6m/photo-2025-08-02-18-21-44.jpg" alt="ملخص 1 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="https://i.ibb.co/wNq9tRHv/photo-2025-08-02-18-22-12.jpg" alt="ملخص 2 -" class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                        
+                    </div>
+                </div>
+
+                <!-- الوحدة الثانية - الفيزياء -->
+                <div class="unit-card">
+                    <div class="unit-header unit-physics">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة الثانية</h3>
+                                
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 1 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 2 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                        
+                    </div>
+                </div>
+
+                <!-- الوحدة الثالثة - الكيمياء -->
+                <div class="unit-card">
+                    <div class="unit-header unit-chemistry">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة الثالثة</h3>
+                               
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 1 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 2 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 - " class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                        
+                    </div>
+                </div>
+
+                <!-- الوحدة الرابعة - الأحياء -->
+                <div class="unit-card">
+                    <div class="unit-header unit-biology">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة الرابعة</h3>
+                               
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 1 " class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 2 " class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 " class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                       
+                    </div>
+                </div>
+
+                <!-- الوحدة الخامسة - التاريخ -->
+                <div class="unit-card">
+                    <div class="unit-header unit-history">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة الخامسة</h3>
+                               
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 1 -" class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 2 -" class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 -" class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                    
+                    </div>
+                </div>
+
+                <!-- الوحدة السادسة - الجغرافيا -->
+                <div class="unit-card">
+                    <div class="unit-header unit-geography">
+                        <div class="unit-header-content">
+                            <div>
+                                <h3 class="unit-title">الوحدة السادسة</h3>
+                            
+                            </div>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="images-container">
+                        <div class="images-grid">
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 1 - ا" class="summary-image">
+                                <div class="image-placeholder">ملخص 1</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 2 - ا" class="summary-image">
+                                <div class="image-placeholder">ملخص 2</div>
+                            </div>
+                            <div class="image-slot">
+                                <img src="" alt="ملخص 3 -" class="summary-image">
+                                <div class="image-placeholder">ملخص 3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-footer">
+                        <span>3 ملخصات</span>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="footer-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3>مكتبة الملخصات</h3>
+                </div>
+                <p class="footer-description">
+                    ملخصات الأستاذة جوهري وسام
+                </p>
+                <div class="footer-bottom">
+                    <p>© 2025 مكتبة الملخصات. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
